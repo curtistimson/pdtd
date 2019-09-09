@@ -1006,7 +1006,7 @@
 
 /* Wrapper */
 
-	#wrapper {
+#wrapper {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;

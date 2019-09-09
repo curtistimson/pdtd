@@ -1,13 +1,7 @@
-# pdtd
-
-## Development
-
-```
-npm run dev
-```
+# PDTD
 
 
-## Identify Theme by HTML5 UP
+## HTML5 Up Identity Theme
 
 Identity by HTML5 UP
 html5up.net | @ajlkn
