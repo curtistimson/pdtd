@@ -24,8 +24,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div>
-        <main>{children}</main>
+      <div id="wrapper">
+        {children}
         <footer id="footer">
           <ul class="copyright">
             <li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
