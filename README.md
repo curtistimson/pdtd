@@ -1,5 +1,11 @@
 # pdtd
 
+## Development
+
+```
+npm run dev
+```
+
 
 ## Identify Theme by HTML5 UP
 
