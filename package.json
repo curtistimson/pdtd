@@ -1,10 +1,10 @@
 {
   "name": "pdtd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/curtistimson/pdtd/issues"
   },
-  "homepage": "https://github.com/curtistimson/pdtd#readme"
+  "homepage": "https://github.com/curtistimson/pdtd#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
 }
