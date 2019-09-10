@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import avatarImg from '../images/avatar.jpg';
-import Icons from '../components/icons';
+import SocialLinks from '../components/socialLinks';
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +16,7 @@ const IndexPage = () => (
         <p>Senior Psychonautics Engineer</p>
       </header>
       <footer>
-        <Icons/>
+        <SocialLinks/>
       </footer>
     </section>
   </Layout>
