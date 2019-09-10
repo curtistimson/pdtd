@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import avatarImg from '../images/avatar.jpg';
+import SocialLinks from '../components/socialLinks';
 
 const IndexPage = () => (
   <Layout>
@@ -15,11 +16,7 @@ const IndexPage = () => (
         <p>Senior Psychonautics Engineer</p>
       </header>
       <footer>
-        <ul class="icons">
-          <li><a href="#" class="icon brands fa-twitter">Twitter</a></li>
-          <li><a href="#" class="icon brands fa-instagram">Instagram</a></li>
-          <li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
-        </ul>
+        <SocialLinks/>
       </footer>
     </section>
   </Layout>

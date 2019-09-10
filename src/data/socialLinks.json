@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Twitter",
+    "className": "fa-twitter",
+    "url": "https://twitter.com"
+  },
+  {
+    "name": "Instagram",
+    "className": "fa-instagram",
+    "url": "https://instagram.com"
+  },
+  {
+    "name": "Facebook",
+    "className": "fa-facebook-f",
+    "url": "https://facebook.com"
+  }
+]
