@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 const SocialLinks = () => (
   <StaticQuery
     query={graphql`
-      query SocialLinksQuery {
+      query {
         allSocialLinksJson {
           edges {
             node {
