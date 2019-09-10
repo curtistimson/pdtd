@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `PDTD`,
-    description: ``,
-    author: ``,
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
