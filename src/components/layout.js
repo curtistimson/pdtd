@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <div id="wrapper">
         {children}
         <footer id="footer">
-          <ul class="copyright">
+          <ul className="copyright">
             <li>&copy; {metaJson.title}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </footer>

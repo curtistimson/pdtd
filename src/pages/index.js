@@ -24,7 +24,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <section id="main">
         <header>
-          <span class="avatar"><img src={avatarImg} alt="" /></span>
+          <span className="avatar"><img src={avatarImg} alt="" /></span>
           <h1>{metaJson.title}</h1>
           <p>{metaJson.subtitle}</p>
         </header>
