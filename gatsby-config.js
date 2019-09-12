@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,7 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-147663435-1",
+        trackingId: process.env.GOOGLE_ANALYTICS_KEY,
       },
     },
   ],
