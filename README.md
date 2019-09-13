@@ -1,5 +1,22 @@
 # PDTD
 
+## Development
+
+Install Gatsby CLI:
+
+```
+npm install -g gatsby-cli
+```
+
+Run develop:
+
+```
+gatsby develop
+```
+
+Go to: http://localhost:8000
+
+
 
 ## HTML5 Up Identity Theme
 

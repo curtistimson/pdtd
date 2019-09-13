@@ -2,7 +2,7 @@
   "name": "pdtd",
   "private": true,
   "description": "",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "dependencies": {
     "dotenv": "^8.1.0",
     "gatsby": "^2.15.11",
